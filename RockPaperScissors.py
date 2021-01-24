@@ -4,9 +4,9 @@
 # The game prints who is the winner of if there is a tie
 
 player1 = input("Player 1 make your selection between rock, paper or scissors: ")
-player2 = input("Player 2 now make your selection ")
+player2 = input("Player 2 now make your selection: ")
 
-if player1 == "rock" or "paper" OR "scissors" and player2 == "rock" or "paper" OR "scissors":
+if (player1 == "rock" or "paper" or "scissors") and (player2 == "rock" or "paper" or "scissors"):
 	if player1 == "rock":
 		if player2 == "scissors":
 			print("Player 1 wins!")
