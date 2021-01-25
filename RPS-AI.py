@@ -14,29 +14,32 @@ if comp_int == 0:
     computer = "rock"
 elif comp_int == 1:
     computer = "paper"
-elif comp_int == 2:
+else:
     computer = "scissors"
 
 print("Computer has chosen: " + computer)
 
-if computer == player:
-    print("It's a tie!")
-elif computer == "rock":
-    if player == "paper":
-        print("You Win!")
-    elif player == "scissors":
-        print("Computer Wins!")
-elif computer == "paper":
-    if player == "scissors":
-        print("You Win!")
-    elif player == "rock":
-        print("Computer Wins!")
-elif computer == "scissors":
-    if player == "rock":
-        print("You Win!")
-    elif player == "paper":
-        print("Computer Wins!")
+if player == "rock" or player == "paper" or player == "scissors":
+    if computer == player:
+        print("It's a tie!")
+    elif computer == "rock":
+        if player == "paper":
+            print("You Win!")
+        elif player == "scissors":
+            print("Computer Wins!")
+    elif computer == "paper":
+        if player == "scissors":
+            print("You Win!")
+        elif player == "rock":
+            print("Computer Wins!")
+    elif computer == "scissors":
+        if player == "rock":
+            print("You Win!")
+        elif player == "paper":
+            print("Computer Wins!")
+    else:
+        pint("Something has gone wrong!")
 else:
-    pint("Something has gone wrong!")
+    print("Please enter either rock, paper or scissors")
         
 
