@@ -8,6 +8,7 @@ print("Paper...")
 print("Scissors...")
 
 player1 = input("Player 1 make your selection between rock, paper or scissors: ")
+print("***NO CHEATING!***\n" * 20)
 player2 = input("Player 2 now make your selection: ")
 
 if (player1 == "rock" or player1 == "paper" or player1 == "scissors") and (player2 == "rock" or player2 == "paper" or player2 == "scissors"):
