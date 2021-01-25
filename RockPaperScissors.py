@@ -6,7 +6,7 @@
 player1 = input("Player 1 make your selection between rock, paper or scissors: ")
 player2 = input("Player 2 now make your selection: ")
 
-if (player1 == "rock" or "paper" or "scissors") and (player2 == "rock" or "paper" or "scissors"):
+if (player1 == "rock" or player1 == "paper" or player1 == "scissors") and (player2 == "rock" or player2 == "paper" or player2 == "scissors"):
 	if player1 == "rock":
 		if player2 == "scissors":
 			print("Player 1 wins!")
