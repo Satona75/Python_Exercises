@@ -3,6 +3,10 @@
 # Player 2 then selects
 # The game prints who is the winner of if there is a tie
 
+print("Rock...")
+print("Paper...")
+print("Scissors...")
+
 player1 = input("Player 1 make your selection between rock, paper or scissors: ")
 player2 = input("Player 2 now make your selection: ")
 
