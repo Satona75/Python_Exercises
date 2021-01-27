@@ -4,7 +4,7 @@ print("Paper...")
 print("Scissors...\n")
 
 #Player is invited to choose first
-player=input("Make your move: ")
+player=input("Make your move: ").lower()
 
 #Number is randomly generated between 0 and 2
 import random
