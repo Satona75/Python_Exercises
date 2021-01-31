@@ -21,4 +21,4 @@ while carry_on == "y":
     print("Congratulations!! You have guessed correctly!")
     carry_on = input("Do you wish to play again? (y/n).. ")
 
-print("Thanks for playing! See you again soon!")
+print("Thanks for playing!")
