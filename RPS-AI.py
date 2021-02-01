@@ -1,4 +1,6 @@
-#This game plays Rock, Paper, Scissors against the computer
+#This game plays Rock, Paper, Scissors against the computer.
+
+
 print("Rock...")
 print("Paper...")
 print("Scissors...\n")
@@ -38,7 +40,7 @@ if player == "rock" or player == "paper" or player == "scissors":
         elif player == "paper":
             print("Computer Wins!")
     else:
-        pint("Something has gone wrong!")
+        print("Something has gone wrong!")
 else:
     print("Please enter either rock, paper or scissors")
         
