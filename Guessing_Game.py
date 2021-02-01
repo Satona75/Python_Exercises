@@ -19,6 +19,6 @@ while carry_on == "y":
             guess = int(input("Sorry too high! Try again.. "))
             
     print("Congratulations!! You have guessed correctly!")
-    carry_on = input("Do you wish to play again? (y/n).. ")
+    carry_on = input("Do you want to play again? (y/n).. ")
 
 print("Thanks for playing!")
