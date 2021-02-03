@@ -4,15 +4,17 @@ computer_score = 0
 player_score = 0
 win_score = 2
 
+print("Rock...")
+print("Paper...")
+print("Scissors...\n")
 
 while computer_score < win_score and player_score < win_score:
-    print("Rock...")
-    print("Paper...")
-    print("Scissors...\n")
-
+    
     print(f"Computer Score: {computer_score}, Your Score: {player_score}")
     #Player is invited to choose first
     player=input("Make your move: ").lower()
+    if player == "quit" or player == "q":
+        break
 
     #Number is randomly generated between 0 and 2
     import random
@@ -55,5 +57,11 @@ while computer_score < win_score and player_score < win_score:
             print("Something has gone wrong!")
     else:
         print("Please enter either rock, paper or scissors")
+if computer_score > player_score:
+    print("Oh no! The Computer won overall!!")
+elif player_score > computer_score:
+    print("Congratulations!! You won overall")
+else:
+    print("It's a tie overall")
             
 

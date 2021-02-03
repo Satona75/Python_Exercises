@@ -21,3 +21,5 @@
 for num in range (1,21,2):
     print((" " *(20 - num)) + ("\U0001f600" * num))
 
+
+
